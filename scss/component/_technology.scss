@@ -1,0 +1,36 @@
+.technology {
+  border-top: 10px solid #6e1a52;
+  padding: 3rem 0;
+  background-color: #29303b;
+  text-align: center;
+  .icon {
+    i {
+      color: #ffffff;
+      padding: 0 7rem;
+      font-size: 2rem;
+    }
+  }
+  .details {
+    margin: 3rem 0;
+    color: #ffffff;
+    i {
+      font-size: 2rem;
+    }
+    // .icon-left {
+    //   margin-right: 3rem;
+    // }
+    .item {
+      h1 {
+        font-size: 1.25rem;
+      }
+      margin: 0 15rem;
+      button {
+        border-radius: 2px;
+        @include button;
+        &:hover {
+          @include button-hover;
+        }
+      }
+    }
+  }
+}

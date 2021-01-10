@@ -1,0 +1,28 @@
+.footer {
+  padding: 2rem 0;
+  border-top: 1px solid #cccccc;
+  .footer-left {
+    span {
+      margin-left: 1rem;
+      font-size: 0.825rem;
+      color: #979393;
+    }
+    img {
+      cursor: pointer;
+    }
+  }
+  .footer-right {
+    ul {
+      margin-right: 1.25rem;
+      li {
+        display: inline;
+        list-style: none;
+        margin-left: 1rem;
+        a {
+          text-decoration: none;
+          font-size: 0.825rem;
+        }
+      }
+    }
+  }
+}

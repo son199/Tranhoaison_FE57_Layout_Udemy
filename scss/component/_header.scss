@@ -1,0 +1,19 @@
+.header__left {
+  display: flex;
+  align-items: center;
+  a {
+    flex-grow: 1;
+  }
+  .categories {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+  }
+
+  @include seach;
+}
+.header__right {
+  .btn-login {
+    border: 1px solid #1f1e1e;
+  }
+}

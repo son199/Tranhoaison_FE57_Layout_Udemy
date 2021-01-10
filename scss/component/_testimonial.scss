@@ -1,0 +1,63 @@
+.testimonials {
+  background-color: #f3f0f0;
+  padding: 2rem 0;
+  h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .row {
+    .item {
+      padding: 2rem 2rem;
+      background-color: #ffffff;
+      box-shadow: 0 1px 3px 0 rgba(20, 23, 28, 0.15);
+      img {
+        width: 60px;
+        border-radius: 50%;
+      }
+      span {
+        margin-left: 1rem;
+        font-weight: 700;
+      }
+      p {
+        margin-top: 1rem;
+      }
+    }
+  }
+  h2 {
+    text-align: center;
+    font-size: 0.825rem;
+    margin-top: 3rem;
+    color: #686f7a;
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+  .icon-store {
+    text-align: center;
+    img {
+      padding: 0 2rem;
+    }
+  }
+  .student-cart {
+    .row {
+      .info-1 {
+        border-right: 1px solid #d4d1d1;
+      }
+      .info {
+        text-align: center;
+        padding: 1rem 3rem;
+        h1 {
+          font-size: 1.25rem;
+          font-weight: 700;
+        }
+        button {
+          border-radius: 0;
+          @include button;
+          &:hover {
+            @include button-hover;
+          }
+        }
+      }
+    }
+  }
+}

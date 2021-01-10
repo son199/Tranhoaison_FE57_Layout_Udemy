@@ -1,0 +1,26 @@
+.work {
+  background-color: $bgcolor;
+
+  .item {
+    margin-top: 1rem;
+    color: $color-secondary;
+    text-align: left;
+    display: flex;
+
+    padding: 1rem 0;
+  }
+  .item h1 {
+    font-size: $font-size-h1;
+    // line-height: 0.5rem;
+  }
+  .item p {
+    // line-height: 1rem;
+    font-size: $font-size-p;
+  }
+  .item-icon i {
+    font-size: 3rem;
+  }
+  .item-detal {
+    margin-left: 1.5rem;
+  }
+}

@@ -1,0 +1,17 @@
+@import "./helper/variable";
+@import "./helper/mixin";
+@import "./base/reset";
+// component
+@import "./component/header";
+@import "./component/carousel";
+@import "./component/work";
+@import "./component/browse";
+@import "./component/slick";
+@import "./component/student-view";
+@import "./component/technology";
+@import "./component/category";
+@import "./component/testimonial";
+@import "./component/contact";
+@import "./component/footer";
+// layout
+@import "./layout/_home";

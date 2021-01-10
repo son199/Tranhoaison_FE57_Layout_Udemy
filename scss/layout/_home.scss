@@ -1,0 +1,19 @@
+@media screen and (max-width: 1140px) {
+}
+@media screen and (max-width: 992px) {
+  .header {
+    .header__right {
+      .nav-link {
+      }
+      .nav-link-none {
+        display: none;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  @include responsive-768px;
+}
+@media screen and (max-width: 576px) {
+  @include responsive-576px;
+}

@@ -1,0 +1,18 @@
+.student-view {
+  padding: 2rem 0;
+  .container {
+    h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      padding: 1rem 0;
+    }
+    .rows {
+      display: flex;
+      .col {
+        padding-left: 0 !important;
+        width: 20%;
+        @include item;
+      }
+    }
+  }
+}
